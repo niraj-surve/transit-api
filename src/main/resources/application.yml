@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: transit-api
+  devtools:
+    add-properties: false
+  output:
+    ansi:
+      enabled: always
+  main:
+    banner-mode: off
+  profiles:
+    active: dev
+
+logging:
+  level:
+    org:
+      springframework: WARN
+      mongodb:
+        driver: WARN
+
+springdoc:                      # swagger properties
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /api-docs/ui

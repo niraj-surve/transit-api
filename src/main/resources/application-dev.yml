@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://transit:transitapp@cluster0.d2nwu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: transitdb
+      auto-index-creation: true
